@@ -1,0 +1,15 @@
+.stepper {
+    position: relative;
+    top: 8px;
+    left: -42px;
+}
+
+.circle-stepper {
+    left: -14px;
+}
+
+.triangle-stepper {
+    position: relative;
+    top: 50px;
+    right: 38px;
+}

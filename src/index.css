@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1380px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+#contract-section .center-box {
+    width: 250px;
+    height: 250px;
+}
+
+#contract-section .bottom {
+    margin-top: 200px;
+}
+
+#contract-section .main-title {
+    width: 100%;
+    text-align: center;
+}
+
+#contract-section .left-side-arrow {
+    position: absolute;
+    left: -115px;
+}
+
+#contract-section .right-side-arrow {
+    position: absolute;
+    right: -115px;
+}
+
+#contract-section .left-side-arrow>img,
+#contract-section .right-side-arrow>img {
+    position: absolute;
+    width: 163px;
+}
+
+#contract-section .left-side-arrow .left-top {
+    position: relative;
+    width: 163px;
+    left: 9px;
+    top: -93px;
+}
+
+#contract-section .left-side-arrow .left-bottom {
+    top: 118px;
+    right: -16px;
+}
+
+#contract-section .right-side-arrow .right-top {
+    position: relative;
+    top: -93px;
+}
+
+#contract-section .right-side-arrow .right-bottom {
+    top: 111px;
+    left: -12px;
+}
+
+#deliveries-section .slick-list {
+    padding-top: 68px;
+}
+
+#deliveries-section .slick-prev,
+#deliveries-section .slick-next {
+    width: 50px;
+    left: 43%;
+    top: auto;
+    bottom: -29%;
+    position: absolute;
+    height: 50px;
+}
+
+#deliveries-section .slick-next {
+    left: 53%;
+}
+
+#deliveries-section .slick-slider {
+    max-width: 100%;
+}
+
+#deliveries-section .slick-next::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+}
+
+.arrow-section {
+    display: none;
+}
+
+.end-point::after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(15, 206, 126, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    right: -5px;
+}
+
+#trade-download-section .slick-dots {
+    display: block !important;
+    bottom: 12px;
+    width: 75%;
+}
+
+.download-sliders .slider-card {
+    margin: 0px !important;
+    /* width: 370px; */
+    width: 375px;
+}
+
+.download-sliders .slick-dots {
+    bottom: 20px;
+}
+
+
+/* .dx-command-edit > .dx-link-edit{
+    display: none;
+    position: relative;
+} */
+
+
+/* .dx-command-edit > .dx-link-edit::after{
+    position: absolute;
+    content: '\270E';
+    color: blueviolet;
+} */

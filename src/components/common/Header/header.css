@@ -1,0 +1,31 @@
+.active-link {
+    display: block;
+    height: 5px;
+    width: 5px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #3491FF;
+}
+
+.btn-group__item {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+    text-transform: capitalize;
+}
+
+.btn-group__item:hover,
+.btn-group__item:focus {
+    outline: none;
+}
+.nav-item .active{
+    position:relative;
+}
+.nav-item .active::after{
+    content: "";
+    padding: 3px;
+    background-color: #3491FF;
+    position: absolute;
+    bottom: -10px;
+    left: 49%;
+    border-radius: 50px;
+}

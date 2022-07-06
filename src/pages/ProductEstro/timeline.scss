@@ -1,0 +1,236 @@
+/* Timeline Container */
+
+#timeline-section .timeline,
+#timeline-section .right-timeline {
+    background: var(--primary-color);
+    padding: 20px;
+}
+
+
+/* Outer Layer with the timeline border */
+
+#timeline-section .outer {
+    border-left: 2px solid #43386B;
+}
+
+#timeline-section .right-timeline>.outer {
+    border-left: none;
+    border-right: 2px solid #3491FF;
+}
+
+#timeline-section .right-timeline .card {
+    position: relative;
+    margin: 0 0 0px 79px;
+    border-radius: 8px;
+    justify-content: right;
+    margin-left: auto;
+}
+
+#timeline-section .card .desc {
+    max-width: 23rem;
+    color: #808D9A;
+}
+
+
+/* Card container */
+
+#timeline-section .card,
+#timeline-section .right-timeline .card {
+    position: relative;
+    margin: 0 0 0px 20px;
+    padding: 25px 10px;
+    border-radius: 8px;
+}
+
+
+/* Information about the timeline */
+
+.info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#timeline-section .right-timeline {
+    border-left: 2px solid rgba(52, 145, 255, 0.2);
+}
+
+#timeline-section .right-timeline .info {
+    justify-content: right;
+    align-items: center;
+}
+
+
+/* Title of the card */
+
+#timeline-section .timeline .title-section {
+    position: relative;
+    // background: url('./img/drop-icon.png');
+    background-repeat: no-repeat;
+    height: 80px;
+    background-size: 86% 100%;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timeline-section .right-timeline .title-section {
+    position: relative;
+    // background: url('./img/right-drop.png');
+    background-repeat: no-repeat;
+    height: 80px;
+    background-size: 86% 100%;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+#timeline-section .timeline,
+#timeline-section .right-timeline {
+    position: relative;
+}
+
+#timeline-section .timeline::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #43386B;
+    transform: rotate(44.58deg);
+    top: 11px;
+    position: absolute;
+    left: 16px;
+}
+
+#timeline-section .right-timeline::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #43386B;
+    transform: rotate(44.58deg);
+    top: 8px;
+    position: absolute;
+    right: 16px;
+}
+
+#timeline-section .right-timeline::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #43386B;
+    transform: rotate(44.58deg);
+    bottom: 10px;
+    position: absolute;
+    right: 16px;
+}
+
+#timeline-section .right-timeline .desc h3 {
+    text-align: right;
+}
+
+
+/* Timeline dot  */
+
+#timeline-section .title::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 999px;
+    left: -42px;
+    border: 2px solid #43386B;
+}
+
+#timeline-section .timeline .title::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #29B2A6;
+    border-radius: 50%;
+    left: -37px;
+}
+
+#timeline-section .right-timeline .title::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 999px;
+    right: -20px;
+    left: auto;
+    border: 3px solid #29B2A6;
+}
+
+#timeline-section .right-timeline .title::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #29B2A6;
+    border-radius: 50%;
+    right: -15px;
+}
+
+#timeline-section .timeline .title-section::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    left: -22px;
+    top: 38px;
+    border: 1px solid #43386B;
+    background-color: #43386B;
+}
+
+#timeline-section .right-timeline .title-section::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    right: -2px;
+    top: 38px;
+    border: 1px solid #43386B;
+    background-color: #43386B;
+}
+
+#timeline-section .timeline::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #43386B;
+    transform: rotate(44.58deg);
+    position: absolute;
+    left: 16px;
+    bottom: 10px;
+}
+
+#timeline-section .title {
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #176BB3;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* #timeline-section .right-timeline::before {
+    content: "";
+    width: 2px;
+    height: 80%;
+    background: rgba(52, 145, 255, 0.2);
+    transform: rotate(0deg);
+    position: absolute;
+    left: 16px;
+    bottom: 70px;
+  } */

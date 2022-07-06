@@ -1,0 +1,125 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-slider {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.slick-slide {
+    padding-right: 10px;
+}
+
+.slick-slide:last-child {
+    padding-right: 0;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-list {
+    margin: 0 15px;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-prev .slick-next {
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 0px 5px;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.slick-prev {
+    width: 50px;
+    left: -45px;
+    top: 48%;
+    position: absolute;
+    height: 50px;
+    background: #3491FF;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14), 0 6px 6px rgba(0, 0, 0, 0.15);
+}
+
+.slick-next {
+    width: 50px;
+    right: -45px;
+    top: 48%;
+    position: absolute;
+    height: 50px;
+    background: #3491FF;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14), 0 6px 6px rgba(0, 0, 0, 0.15);
+}
+
+.slick-disabled {
+    background: #fff;
+    color: #000;
+}
+
+.slick-prev:focus,
+.slick-prev:hover,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: #1e6fd0;
+}
+
+.slick-prev::before {
+    content: '\2039';
+    padding: 1px 11px;
+    position: absolute;
+    font-size: 62px;
+    top: 0px;
+    line-height: .4;
+    left: 0;
+    color: #000000;
+}
+
+.slick-next:before {
+    content: '\203A';
+    padding: 1px 11px;
+    position: absolute;
+    font-size: 62px;
+    top: 0px;
+    line-height: .4;
+    left: 5px;
+    color: #0a2a4a;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  } */

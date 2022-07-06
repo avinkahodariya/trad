@@ -1,0 +1,13 @@
+.circle-text {
+    position: relative;
+    top: 27px;
+    right: -32px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.garident-circle {
+    width: 100px;
+    height: 100px;
+}
