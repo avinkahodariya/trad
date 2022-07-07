@@ -99,7 +99,7 @@ function Accordion() {
           {console.log("listData", listData)}
           {listData.map((value, index) => (
             <>
-              <div className=" rounded-xl h-30 mx-auto mb-10 mt-0 bg-gradient-to-r p-[1.5px] from-[#0FCE7E] via-[#0080F6] to-[#9333EA] ">
+              <div className=" rounded-xl h-30 mx-auto mb-10 mt-0 bg-gradient-to-r p-[1.5px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] ">
                 <div className="flex justify-between items-center h-full bg-white text-white rounded-lg text-center">
                   <div
                     id="accordion-collapse"
@@ -117,21 +117,21 @@ function Accordion() {
                         <span className="text-[#0A2A4A] text-xl dark:text-gray-400">
                           {value.title}
                         </span>
-                        {button && !value.selected ? (
+                        {button && value.selected ? (
                           <svg
                             onClick={() => {
                               showData(value);
                               setbutton(false);
-                            }}
-                            xmlns="http://www.w3.org/2000/svg"
+                            }}xmlns="http://www.w3.org/2000/svg"
                             width="72"
                             height="72"
                             fill="#3491FF"
-                            class="bi bi-plus-circle-fill"
+                            class="bi bi-dash-circle-fill"
                             viewBox="0 0 30 16"
                           >
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
                           </svg>
+                            
                         ) : (
                           <svg
                             onClick={() => {
@@ -142,10 +142,10 @@ function Accordion() {
                             width="72"
                             height="72"
                             fill="#3491FF"
-                            class="bi bi-dash-circle-fill"
+                            class="bi bi-plus-circle-fill"
                             viewBox="0 0 30 16"
                           >
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                           </svg>
                         )}
                       </button>

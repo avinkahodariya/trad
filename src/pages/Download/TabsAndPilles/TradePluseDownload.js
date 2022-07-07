@@ -46,7 +46,7 @@ const TradePluseDownload = () => {
     <div className='bg-[#F4FAFF]' >
         <div className="container" id="trade-plus-download-section">
         <div className='font-medium text-3xl mb-4	text-center pt-12 text-[#0A2A4A]'>Trade Plus & TradeNet</div>
-        <p className='mb-6 text-lg text-center text-[#808D9A] font-normal'>Facilitates in-depth reports and trade screens while ensuring security for each individual user.</p>
+        <p className='mb-6 text-md text-center text-[#808D9A] font-normal'>Facilitates in-depth reports and trade screens while ensuring security for each individual user.</p>
         </div>
         <div className='flex justify-between mx-12 download-sliders' id="trade-download-slider" > 
         

@@ -14,23 +14,23 @@ const Banner = ()=>{
                             ">
                           Back office package for Stock brokers.
                             </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             TradePlus supports import of all BSE and NSE files including BSE Auction file.
                             </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4 ">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4 ">
                             Unique Trade Amendment screens that captures every element of trade execution.
                             </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Provision to apply absolute brokerage on multiple trades on select and apply basis.                            </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             All processes required for Institutional Business.
                             </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Automatic Effect for custodial trades.                            </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                                 Facility to accumulate trades and allocate quantity based on MF/PMS scheme details provided in .xls file.                            
                             </p>
-                            <p className="mt-3 text-[1rem] text-gray-500 sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                                 Generate files for most front office software for new client creation and limit setting, including additional limit file for BTST.                           
                              </p>
                         </div>

@@ -8,7 +8,7 @@ function Technology() {
                 <div className="container px-5 py-12 mx-auto ">
                     <div className="flex flex-wrap -m-4 ">
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-[18rem] h-[18rem] mx-auto bg-gradient-to-r pb-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+                            <div className=" rounded-xl w-[18rem] h-[18rem] mx-auto bg-gradient-to-r pb-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4 text-center">
                                     <svg className='ml-8' width="185" height="185" viewBox="0 0 185 185" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="92.5" cy="92.5" r="92.5" fill="url(#paint0_linear_1813_1351)" />
@@ -24,14 +24,14 @@ function Technology() {
                                     </svg>
 
                                     <div className="mt-10">
-                                        <h3 className="text-[#808D9A] font-normal text-sm mb-1">State of art client / server architecture using RDBMS back end ensures fullest data security for substantially large database.</h3>
+                                        <h3 className="text-[#808D9A] font-normal text-[1rem] mb-1 ">State of art client / server architecture using RDBMS back end ensures fullest data security for substantially large database.</h3>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-[18rem] h-[18rem] mx-auto bg-gradient-to-r  pb-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+                            <div className=" rounded-xl w-[18rem] h-[18rem] mx-auto bg-gradient-to-r  pb-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <svg className='ml-9' width="175" height="175" viewBox="0 0 185 185" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="92.5" cy="92.5" r="92.5" fill="url(#paint0_linear_1813_1352)" />
@@ -49,14 +49,14 @@ function Technology() {
                                     </svg>
 
                                     <div className="mt-10">
-                                        <h3 className="text-[#808D9A] font-normal text-sm mb-1 text-center">Intelligently designed database makes it possible to execute export / import of high volume data and retrieval of specific information in no time.</h3>
+                                        <h3 className="text-[#808D9A] font-normal text-[1rem] mb-1 text-center">Intelligently designed database makes it possible to execute export / import of high volume data and retrieval of specific information in no time.</h3>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl w-[18rem] h-[18rem] mx-auto bg-gradient-to-r  pb-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+                            <div className=" rounded-xl w-[18rem] h-[18rem] mx-auto bg-gradient-to-r  pb-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <svg className='ml-7' width="185" height="185" viewBox="0 0 185 185" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="92.5" cy="92.5" r="92.5" fill="url(#paint0_linear_1813_1353)" />
@@ -79,14 +79,14 @@ function Technology() {
                                     </svg>
 
                                     <div className="mt-10">
-                                        <h3 className="text-[#808D9A] font-normal text-sm mb-1 text-center">32 bit seamless front end and database integration makes it possible to transfer data between branches, head office and web server simple and dynamic.</h3>
+                                        <h3 className="text-[#808D9A] font-normal text-[1rem] mb-1 text-center">32 bit seamless front end and database integration makes it possible to transfer data between branches, head office and web server simple and dynamic.</h3>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                            <div className=" rounded-xl  w-[18rem] h-[18rem] mx-auto bg-gradient-to-r  pb-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+                            <div className=" rounded-xl  w-[18rem] h-[18rem] mx-auto bg-gradient-to-r  pb-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
                                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
                                     <svg className='ml-7' width="185" height="185" viewBox="0 0 185 185" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="92.5" cy="92.5" r="92.5" fill="url(#paint0_linear_1813_1354)" />
@@ -102,7 +102,7 @@ function Technology() {
                                     </svg>
 
                                     <div className="mt-10">
-                                        <h3 className="text-[#808D9A] font-normal text-sm mb-1 text-center">Considering the nature of business and amount of risk involved, security of data and prevention of mischief has been given priority over other factors.</h3>
+                                        <h3 className="text-[#808D9A] font-normal text-[1rem] mb-1 text-center">Considering the nature of business and amount of risk involved, security of data and prevention of mischief has been given priority over other factors.</h3>
                                     </div>
                                 </div>
                             </div>

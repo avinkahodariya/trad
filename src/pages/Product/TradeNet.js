@@ -25,15 +25,16 @@ function TradeNet() {
                     <ul className="  relative    px-5 mb-4 w-full">
                         {listData.map((item,index)=>(
                         <li className="mb-0 text-[#808D9A] text-[18px] ml-2 flex flex-nowrap squre " key={index}>
-                            <p className=" font-normal text-[#808D9A] w-full   text-[1rem] m-[-5px] ">{item.desc}</p>
+                            <p className=" font-normal text-[#808D9A] w-full   text-sm m-[-5px] ">{item.desc}</p>
                         </li>
+                        
                         ))}
                     
                     </ul>
                     <ul className="  relative    px-5 mb-4  p-4">
                         {rightSideData.map((item,index)=>(
                             <li className="mb-0 text-[#808D9A] text-[18px] ml-2 flex flex-nowrap squre " key={index}>
-                                <p className=" font-normal text-[#808D9A] w-full  text-[1rem] m-[-5px]">{item.desc}</p>
+                                <p className=" font-normal text-[#808D9A] w-full  text-sm m-[-5px]">{item.desc}</p>
                             </li>                    
                         ))}
                     </ul>

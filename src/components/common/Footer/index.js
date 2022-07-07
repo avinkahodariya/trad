@@ -36,14 +36,14 @@ function Footer() {
         < div className = "p-4 lg:w-1/4 w-full px-10 " >
         <h2 className = "title-font font-medium text-[#3491FF] tracking-widest text-lg mb-5 border-l-[1px] sm:border-[#fff] align-left text-left pl-2" > Contact us </h2>  
         < div className = "flex-col-reverse block xl:flex-wrap md:flex-wrap lg:flex-wrap flex-wrap justify-center text-center" >
-        < button className = "lg:mt-2 w-full xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#123961]  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" > < img className = "fill-current px-3 "
+        < button className = "lg:mt-2 md:w-60 w-full xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#123961]  border-0 py-2 md:px-4 focus:outline-none hover:bg-indigo-600 rounded" > < img className = "fill-current px-3 "
         src = { require('../Images/Calling.png') }
         /> +
         91 9969265949 </button>  
         </div>  
         <div className = "flex-col-reverse block xl:flex-wrap md:flex-wrap lg:flex-wrap flex-wrap justify-center text-center  mt-3" >
-        <button className = "lg:mt-2 w-full xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#123961]  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" >
-        <img className = "fill-current px-3 "
+        <button className = "lg:mt-2 md:w-60  w-full xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#123961]  border-0 py-2 md:px-6 focus:outline-none hover:bg-indigo-600 rounded" >
+        <img className = "fill-current px-2"
         src = { require('../Images/Message.png') }
         />info@secmark.in 
          </button>  

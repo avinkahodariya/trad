@@ -82,7 +82,7 @@ const Facility = ()=>{
                                     </div>
                                    
                                     <div className="mt-6">
-                                        <h3 className="text-[#808D9A] font-normal text-[1rem] mb-1 text-left">{value.title}</h3>
+                                        <h3 className="text-[#808D9A] font-normal text-sm mb-1 text-left">{value.title}</h3>
                                     </div>
                                 </div>
                       </div>

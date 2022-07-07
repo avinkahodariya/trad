@@ -34,7 +34,7 @@ const ClientMaster = ()=>{
                                         <h3 class="title">{singleLeft.num}</h3>
                                     </div>
                                     <div className="desc">
-                                        <h3 className="font-medium text-[1rem]">{splitTitle[0]}</h3>
+                                        <h3 className="font-medium">{splitTitle[0]}</h3>
                                     {index == 1 &&
                                     <>
                                         <h3 className="font-medium">• {splitTitle[1]}</h3>

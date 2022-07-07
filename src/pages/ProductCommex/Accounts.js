@@ -36,7 +36,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">01</span>
                                </div>
                                 <div className="flex-grow ml-2">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 bg-[#ffffff]">A fully equipped accounting module that can handle all your accounting needs.</p>
+                                    <p className="text-[#808D9A] text-sm font-small p-4 bg-[#ffffff]">A fully equipped accounting module that can handle all your accounting needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">06</span>
                                </div>                              
                                  <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-7 p-4 bg-[#ffffff]">Managing multiple years A/c simultaneously with automatic update of balances from previous year into new year.</p>
+                                    <p className="text-[#808D9A] text-sm font-small ml-7 p-4 bg-[#ffffff]">Managing multiple years A/c simultaneously with automatic update of balances from previous year into new year.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">02</span>
                                </div>                                 
                                <div className="flex-grow ml-11">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 bg-[#ffffff]">Various document like Receipt, Payments, Debit Notes, Credit Notes, Journals, Petty Cash Book etc. with facility to print vouchers and cheques..</p>
+                                    <p className="text-[#808D9A] text-sm font-small p-4 bg-[#ffffff]">Various document like Receipt, Payments, Debit Notes, Credit Notes, Journals, Petty Cash Book etc. with facility to print vouchers and cheques..</p>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">07</span>
                                </div>                                <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-3 p-4 bg-[#ffffff]"> Petty cash book in columnar format.</p>
+                                    <p className="text-[#808D9A] text-sm font-small ml-3 p-4 bg-[#ffffff]"> Petty cash book in columnar format.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">03</span>
                                </div>                               <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-3 p-4 bg-[#ffffff]">Bank reconciliation with powerful options to simplify the entire operation.</p>
+                                    <p className="text-[#808D9A] text-sm font-small ml-3 p-4 bg-[#ffffff]">Bank reconciliation with powerful options to simplify the entire operation.</p>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">08</span>
                                </div>                                 <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small ml-4 p-4 bg-[#ffffff]"> Accounts confirmations letters, Interest Calculations etc.</p>
+                                    <p className="text-[#808D9A] text-sm font-small ml-4 p-4 bg-[#ffffff]"> Accounts confirmations letters, Interest Calculations etc.</p>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +212,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">04</span>
                                </div>                                 <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4  ml-4 bg-[#ffffff]"> Trial balance and funds positions with various options.</p>
+                                    <p className="text-[#808D9A] text-sm font-small p-4  ml-4 bg-[#ffffff]"> Trial balance and funds positions with various options.</p>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">09</span>
                                </div>                                   
                                 <div className="flex-grow ml-8">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 ml-4 bg-[#ffffff]">Payment entries of payout may be generated automatically based on amount to payout and cheques may be printed from within the software.</p>
+                                    <p className="text-[#808D9A] text-sm font-small p-4 ml-4 bg-[#ffffff]">Payment entries of payout may be generated automatically based on amount to payout and cheques may be printed from within the software.</p>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +273,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">05</span>
                                </div>                                  
                                 <div className="flex-grow ml-8">
-                                    <p className="text-[#808D9A] text-[1rem] font-small p-4 ml-3 bg-[#ffffff]">Drilling down to actual entry / Bill from trial balance or ledger is possible. Modification of voucher also possible from here.</p>
+                                    <p className="text-[#808D9A] text-sm font-small p-4 ml-3 bg-[#ffffff]">Drilling down to actual entry / Bill from trial balance or ledger is possible. Modification of voucher also possible from here.</p>
                                 </div>
                             </div>
                         </div>

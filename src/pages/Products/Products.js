@@ -23,7 +23,8 @@ function Products() {
         <img class="w-24 h-24 place-self-center object-cover object-center ml-44 mt-10" src="/assets/img/product-2.svg" alt="blog"/>
         <div class="p-6">
             <h1 class="title-font text-lg font-medium text-center text-[#3491FF] mb-3 underline">Cross  </h1>
-            <p class="leading-relaxed mb-3 text-center text-[#808D9A]">Back office / NSDL co-ordination, billing and accounting software for DPs with NSDL</p>
+            <p class="leading-relaxed mb-3 text-center text-[#808D9A]">                         Back office / CDSL co-ordination, billing and accounting software for DPs with CDSL 
+</p>
           </div>
         </div>
       </div>

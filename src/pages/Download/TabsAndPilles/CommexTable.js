@@ -21,9 +21,7 @@ const CommexTable = () => {
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-5 mb-10	">
         <div className="text-xs text-white uppercase bg-[#3491FF]">
                                 <div className='flex items-center justify-center py-3'>
-                                    <div className='flex px-2'>
-                                        <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300  dark:bg-[#3491FF] dark:border-gray-600" />
-                                    </div>
+                                   
                                     <div className='text-lg font-medium'>Commex</div>
                                 </div>
                 </div>

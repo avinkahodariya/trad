@@ -38,7 +38,7 @@ const EstroNetDownload = (props) => {
     <div>
         <div className='bg-[#fffff]'>
         <div className='font-medium text-3xl mb-4	text-center pt-12 text-[#0A2A4A]'>Estro & EstroNet</div>
-        <div className='mb-6 text-lg text-center text-[#808D9A] font-normal'>This Electronic  Security Treasury Records Organiser provides back office / front office coordination, billing and accounting software for DPs with NSDL.</div>
+        <div className='mb-6 text-md text-center text-[#808D9A] font-normal'>This Electronic  Security Treasury Records Organiser provides back office / front office coordination, billing and accounting software for DPs with NSDL.</div>
         </div>
         <div className='flex justify-between px-12 download-sliders'> 
 

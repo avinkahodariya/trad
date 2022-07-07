@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const dataList = [
   {link:"/products/trade-plus", title:"Trade Plus",img:"/assets/img/product-1.svg",desc:"Back office package for stock brokers."},
-  {link:"/products/estro", title:"Estro",img:"/assets/img/product-3.svg",desc:"Back office / CDSL co-ordination, billing and accounting software for DPs with NSDL."},
-  {link:"/products/cross", title:"Cross",img:"/assets/img/product-2.svg",desc:"Back office / NSDL co-ordination, billing and accounting software for DPs with NSDL."},
+  {link:"/products/estro", title:"Estro",img:"/assets/img/product-3.svg",desc:"Back office / NSDL co-ordination, billing and accounting software for DPs with NSDL."},
+  {link:"/products/cross", title:"Cross",img:"/assets/img/product-2.svg",desc:"Back office / CDSL co-ordination, billing and accounting software for DPs with CDSL"},
   {link:"/products/commex", title:"Commex",img:"/assets/img/product-4.svg",desc:"Back office software for commodities derivatives."},
   // {link:"/products/bowl", title:"Bowl",img:"/assets/img/product-5.svg",desc:"Back office Data access utility by client linked through web"},
   {link:"/products/e-sign", title:"eSign",img:"/assets/img/product-6.svg",desc:"Module for Digitally signing the documents and dispatch to email address of client with maintenance of log."},

@@ -87,22 +87,22 @@ const Deliveries = () => {
                             {initaltext.map((value, index) => (
                                 <div
                                     key={index + '_value'}
-                                    className="rounded-xl w-52 h-[18.5rem] mx-auto   bg-gradient-to-r p-[2px] to-[#6EE7B7] via-[#05C876] from-[#0080F6]"
+                                    className="rounded-xl w-52 h-[18.3rem] mx-auto   bg-gradient-to-r p-[2px] to-[#6EE7B7] via-[#05C876] from-[#0080F6]"
                                 >
-                                    <div className="items-center justify-self-center w-full h-[18rem]">
+                                    <div className="items-center justify-self-center w-full h-full">
                                         <div className="flex flex-col justify-between h-full bg-[#F4FAFF]  text-white rounded-lg p-4 relative 
-                                            after:content-['']  after:absolute after:bg-white 
+                                            after:content-[''] after:h-full after:absolute after:bg-white 
                                             after:w-[90%] after:h-[90%] after:left-[1.5rem] after:top-[1rem] after:rounded-lg 
                                             after:z-0
                                         ">
                                             <span className=" w-20 h-20 mx-auto  mt-10 bg-gradient-to-r p-[2px] to-[#6EE7B7] via-[#05C876] from-[#0080F6] rotate-45  absolute inset-px -top-20  z-10 ">
-                                                <div className="flex flex-col justify-between h-full  text-white rounded-md p-3 bg-[#F4FAFF] ">
+                                                <div className="flex flex-col justify-between h-full  text-white rounded-md p-4 bg-[#F4FAFF] ">
                                                     <span className='text-center text-4xl title-font font-semibold text-[#2F97F8] -rotate-45 '>
                                                         {value.sno}
                                                     </span>
                                                 </div>
                                             </span>
-                                <h2 className="text-center text-[1rem] title-font font-medium mt-20 text-[#808D9A] z-10 p-6">{value.title}</h2>
+                                <h2 className="text-center text-[1rem] title-font font-medium mt-[4rem] text-[#808D9A] z-10 p-6">{value.title}</h2>
                                         </div>
                                     </div>
                                 </div>

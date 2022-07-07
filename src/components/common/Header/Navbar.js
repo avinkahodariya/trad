@@ -1,13 +1,26 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import {Link} from 'react-router-dom';
 
 const Navbar = ({data})=>{
     const [open,setOpen] = React.useState(false);
-    return (
+    const ref = useRef();
+  
+    useEffect(() => {
+      const checkIfClickedOutside = (e) => {
+        if (open && ref.current && !ref.current.contains(e.target)) {
+            setOpen(false);
+        }
+      };
+      document.addEventListener("mousedown", checkIfClickedOutside);
+      return () => {
+        document.removeEventListener("mousedown", checkIfClickedOutside);
+      };
+    }, [open]);
 
+    return (
         <>
-        <nav className=" border-gray-200  py-5  ">
-            <div className="container flex flex-wrap justify-between items-center mx-auto ">
+        <nav className=" border-gray-200  py-5">
+            <div ref={ref} className="container flex flex-wrap justify-between items-center mx-auto ">
                 <a href="/" className="flex items-center">
                 <img
                     src="/assets/img/logo.svg"
@@ -22,7 +35,7 @@ const Navbar = ({data})=>{
                 >
                 <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm  md:font-medium justify-content-left items-left">
                         {data.map(val => (
-                        <li className='nav-item' key={val.id}>
+                        <li ref={ref} className='nav-item' key={val.id}>
                             <Link to={val.path} >
                             <a
                                 className={`active-item ${val.selected ? "text-[#3491FF] active"  : "text-[#587FA6]"} font-medium text-lg btn-group__item`}
@@ -65,8 +78,7 @@ const Navbar = ({data})=>{
                         role="menu"
                         aria-orientation="vertical"
                         aria-labelledby="menu-button"
-                        tabIndex={-1}
-                        
+                        tabIndex={-1}            
                         style={{display:open?'block':'none'}}
                     >
                         <div className="py-1" role="none">

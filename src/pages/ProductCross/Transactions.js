@@ -72,16 +72,16 @@ const Transactions = () => {
             {initaldata.map((value, index) => (
               <div
                 key={index + '_value'}
-                className=" rounded-xl  w-[20rem] h-[18rem] mx-auto bg-gradient-to-r pt-[6px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7]">
+                className=" rounded-xl  w-[20rem] h-[18rem] mx-auto bg-gradient-to-r pt-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
                 <div className="flex flex-col  h-full bg-white text-black rounded-lg p-4">
-                  <div className=' gradient-circle flex rounded-full w-[4.2rem] h-[4.2rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] ' >
+                  <div className=' gradient-circle flex rounded-full w-[4.2rem] h-[4.2rem] mx-auto items-right bg-gradient-to-r p-[1px] from-[#0FCE7E] via-[#0080F6] to-[#9333EA] ' >
                     <div className=' flex justify-start items-center w-[4rem] h-[4rem]  bg-white text-white rounded-full p-4  text-center' >
                       <span className='text-center text-3xl title-font font-semibold text-[#176BB3]'> {value.sno}</span>
                     </div>
                   </div>
 
                   <div className="mt-6">
-                    <h3 className="text-[#808D9A] font-normal text-[1rem] mb-1 text-left">{value.title}</h3>
+                    <h3 className="text-[#808D9A] font-normal text-sm mb-1 text-left">{value.title}</h3>
                   </div>
                 </div>
               </div>

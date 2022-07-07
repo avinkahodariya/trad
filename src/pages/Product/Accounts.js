@@ -36,7 +36,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">01</span>
                                </div>
                                 <div className="flex-grow ml-2">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 bg-[#ffffff]">A fully equipped accounting module that can handle all your accounting needs.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 bg-[#ffffff]">A fully equipped accounting module that can handle all your accounting needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">07</span>
                                </div>                              
                                  <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 bg-[#ffffff]"> Petty cash book in columnar format.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 bg-[#ffffff]"> Petty cash book in columnar format.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">02</span>
                                </div>                                 
                                <div className="flex-grow ml-11">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 bg-[#ffffff]">Various document like Receipt, Payments, Debit Notes, Credit Notes, Journals, Petty Cash Book etc. with facility to print vouchers and cheques..</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 bg-[#ffffff]">Various document like Receipt, Payments, Debit Notes, Credit Notes, Journals, Petty Cash Book etc. with facility to print vouchers and cheques..</p>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">08</span>
                                </div>                                <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium ml-2 p-4 bg-[#ffffff]">Accounts confirmations letters, Interest Calculations etc.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium ml-2 p-4 bg-[#ffffff]">Accounts confirmations letters, Interest Calculations etc.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">03</span>
                                </div>                               <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium ml-8 p-4 bg-[#ffffff]">Bank reconciliation with powerful options to simplify the entire operation. Facility to reconcile using file(s) provided by various banks.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium ml-8 p-4 bg-[#ffffff]">Bank reconciliation with powerful options to simplify the entire operation. Facility to reconcile using file(s) provided by various banks.</p>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">09</span>
                                </div>                                 <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium ml-[4rem] p-4 bg-[#ffffff]">  Payment entries of payout may be generated automatically based on amount to payout and cheques may be printed from within the software. Status of demat delivery receivable etc. may also be taken into consideration while arriving at payout amount.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium ml-[4rem] p-4 bg-[#ffffff]">  Payment entries of payout may be generated automatically based on amount to payout and cheques may be printed from within the software. Status of demat delivery receivable etc. may also be taken into consideration while arriving at payout amount.</p>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +212,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">04</span>
                                </div>                                 <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 bg-[#ffffff]">Trial balance and funds positions with various options.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 bg-[#ffffff]">Trial balance and funds positions with various options.</p>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@ function Accounts() {
                                     </defs>
                                     </svg><span className="text-gray-500 circle-text">10</span>
                                </div>                                <div className="flex-grow">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 ml-[4rem] bg-[#ffffff]"> Connecting to DP back office software to transfer Debits in clients DP ledger and adjust against pay-out if any due to client. Also transfer TradePlus ledger debit of client figures to DP software for display at the time of delivery instruction entry for better RMS</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 ml-[4rem] bg-[#ffffff]"> Connecting to DP back office software to transfer Debits in clients DP ledger and adjust against pay-out if any due to client. Also transfer TradePlus ledger debit of client figures to DP software for display at the time of delivery instruction entry for better RMS</p>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +271,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">05</span>
                                </div>                                   
                                 <div className="flex-grow ml-8">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 bg-[#ffffff]">Drilling down to actual entry / Bill from trial balance or ledger is possible. Modification of voucher also possible from here.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 bg-[#ffffff]">Drilling down to actual entry / Bill from trial balance or ledger is possible. Modification of voucher also possible from here.</p>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +301,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">11</span>
                                </div>                                 
                                 <div className="flex-grow ml-8">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium ml-[2rem] p-4 bg-[#ffffff]">   Facility to import Receipt / Payment / Journal entries from XLS files. Receipts from client may also be validated against bank account details of client registered with us in case of receipt entry through XLS file.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium ml-[2rem] p-4 bg-[#ffffff]">   Facility to import Receipt / Payment / Journal entries from XLS files. Receipts from client may also be validated against bank account details of client registered with us in case of receipt entry through XLS file.</p>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +331,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">06</span>
                                </div>                                  
                                 <div className="flex-grow ml-8">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium p-4 bg-[#ffffff]">Managing multiple years A/c simultaneously with automatic update of balances from previous year into new year.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium p-4 bg-[#ffffff]">Managing multiple years A/c simultaneously with automatic update of balances from previous year into new year.</p>
                                 </div>
                             </div>
                         </div>
@@ -361,7 +361,7 @@ function Accounts() {
                                     </svg><span className="text-gray-500 circle-text">12</span>
                                </div>                                
                                 <div className="flex-grow ml-6">
-                                    <p className="text-[#808D9A] text-[1rem] font-medium text-left ml-[2rem] p-4 bg-[#ffffff]"> Entry of expense voucher with breakup of Service tax etc. TDS, if any, to be deducted while making payment can also be entered at the same time so that payment of net amount is only made.</p>
+                                    <p className="text-[#808D9A] text-sm font-medium text-left ml-[2rem] p-4 bg-[#ffffff]"> Entry of expense voucher with breakup of Service tax etc. TDS, if any, to be deducted while making payment can also be entered at the same time so that payment of net amount is only made.</p>
                                 </div>
                             </div>
                         </div>

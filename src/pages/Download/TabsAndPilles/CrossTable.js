@@ -17,9 +17,7 @@ const CrossTable = () => {
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg my-5 mb-10	">
         <div class="text-xs text-white uppercase bg-[#3491FF] w-100">
                                 <div class='flex items-center justify-center py-3'>
-                                    <div className='flex mx-2'>
-                                        <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300  dark:bg-[#3491FF] dark:border-gray-600" />
-                                    </div>
+                                   
                                     <div className='text-lg font-medium'>Cross</div>
                                 </div>
                 </div>

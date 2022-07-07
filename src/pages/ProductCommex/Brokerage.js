@@ -10,13 +10,13 @@ function Brokerage() {
       
         <div className="container px-5 py-12 mx-auto ">
             <div className="flex flex-col text-center w-full mt-[2rem] mb-[10rem]">
-                <h2 className="title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-0 pb-0 text-[#0A2A4A]">Brokerage Facility</h2>
+                <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Brokerage Facility</h2>
             </div>
 
             <div className='grid grid-cols-5   '>
 
             <div className='relative left-[2rem]'  >
-              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] relative">
+              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative">
                   <div className="flex flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
                       <p className='tetx-[400] text-lg text-center text-[#808D9A]  '> For each slab a Minimum / Percent / Maximum / Fixed brokerage may be defined. </p>
                   </div>
@@ -26,7 +26,7 @@ function Brokerage() {
 
 
             <div className='relative top-[-10rem]' >
-              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] relative">
+              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative">
                   <div className="flex flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
                   <p className='tetx-[400] text-lg text-center text-[#808D9A] '> Minimum Brokerage per contract may also be defined.
  </p>
@@ -39,7 +39,7 @@ function Brokerage() {
 
 
             <div className='relative' >
-              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] relative">
+              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative">
                   <div className="flex flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
                   <p className='tetx-[400] text-lg text-center text-[#808D9A] '>   Speculation, squaring off brokerages can be defined for same client. </p>
                   </div>
@@ -49,7 +49,7 @@ function Brokerage() {
 
 
             <div className='relative top-[-10rem]' >
-              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] relative">
+              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative">
                   <div className="flex flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
                   <p className='tetx-[400] text-lg text-center text-[#808D9A] '> Brokerage discounts may be offerred based on daily turnover.
  </p>
@@ -61,7 +61,7 @@ function Brokerage() {
 
              
             <div className='relative right-[2rem]' >
-              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] relative">
+              <div className="rounded-full w-[15rem] h-[15rem] mx-auto  mt-10 bg-gradient-to-r p-[12px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] relative">
                   <div className="flex flex-col  h-full bg-white text-white rounded-full p-4 flex justify-center items-center">
                   <p className='tetx-[400] text-lg text-center text-[#808D9A] '> Introducing person’s brokerage may be credited to his accounts on settlement posting. </p>
                   </div>

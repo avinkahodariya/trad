@@ -32,7 +32,7 @@ const Reports = () => {
                                 <div className="absolute -left-0.5 top-15 mt-1.5 border-b-4 w-7 border-[#3491FF]"></div>
                                 <div className=" stepper-circle absolute w-3 h-3 bg-[#3491ff] rounded-full "></div>
                             </div>
-                            <p className=" font-normal text-[#808D9A] mb-0  text-[1rem]">{value.title}</p></li>
+                            <p className=" font-normal text-[#808D9A] mb-0  text-sm">{value.title}</p></li>
                     </ul>
                 ))}
             </div>

@@ -7,12 +7,11 @@ const MyAccountCard = () => {
         <div className='w-2/5 px-12	back-forword-btn  mr-10 rounded-2xl	pt-8'>
             <div className='flex justify-between mb-2'>
                 <div>
-                    <a href='#' className='text-[#3491FF] underline underline-offset-1'>Our Bank Account Details</a>
+                    <a href='#' className='text-[#3491FF] text-lg underline underline-offset-1'>Our Bank Account Details</a>
                     <p className='mt-2 text-[#3D3D3D]'>(Should you prefer to deposit the cheque directly.)</p>
                 </div>
                
-            </div>
-            
+            </div>           
             <div className='flex mb-2 mt-4'>
                 <div className='text-[#3D3D3D]'>Account Name :</div>
                 <div className='font-bold ml-3 text-[#3D3D3D]'>SECMARK CONSULTANCY LTD.</div>
@@ -38,11 +37,9 @@ const MyAccountCard = () => {
         <div className='w-2/5 px-12	back-forword-btn ml-10  rounded-2xl	pt-8'>
             <div className='flex justify-between mb-2'>
                 <div>
-                    <a href='#' className='text-[#3491FF] underline underline-offset-1'>Secmark Details</a>
-                </div>
-            
-            </div>
-            
+                    <a href='#' className='text-[#3491FF] text-lg  underline underline-offset-1'>Secmark Details</a>
+                </div>           
+            </div>           
             <div className='flex mb-2'>
                 <div className='text-[#3D3D3D]'>GST ID :</div>
                 <div className='font-bold ml-3 text-[#3D3D3D]'>27AACCN0286A1ZV</div>
@@ -52,9 +49,7 @@ const MyAccountCard = () => {
                 <div className='font-bold ml-3 text-[#3D3D3D]'>AAAAA1234A</div>
             </div>
         </div>
-
         </div>
-
         <div className=' py-10'>
             <div className='mb-2 text-[#3D3D3D]'>Please email the deposit details to us along with :</div>
             <div className='mb-2 text-[#3D3D3D]'>Deposit Amount</div>

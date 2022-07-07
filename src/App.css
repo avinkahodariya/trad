@@ -145,3 +145,14 @@ a.dx-link.dx-link-cancel {
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14), 0 6px 6px rgba(0, 0, 0, 0.15);
 }
+
+textarea.w-full.h-full {
+    resize: none;
+    overflow: hidden;
+}
+.border-technical{
+    background: linear-gradient(to right,#0FCE7E
+    , #0080F6
+    );
+
+}

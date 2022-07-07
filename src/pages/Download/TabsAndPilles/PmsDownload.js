@@ -6,7 +6,7 @@ const PmsDownload = (props) => {
     <div className='bg-[#fffff]'>
         <div>
         <div className='font-medium text-3xl mb-4	text-center pt-12 text-[#0A2A4A]'>PMS</div>
-        <div className='mb-6 text-lg text-center text-[#808D9A] font-normal'> Manages portfolios with high degree of automation, internal controls and compliance.</div>
+        <div className='mb-6 text-md text-center text-[#808D9A] font-normal'> Manages portfolios with high degree of automation, internal controls and compliance.</div>
         </div>
         <div className='flex justify-between px-12	py-6'> 
        

@@ -15,7 +15,7 @@ const DematRequest = ()=>{
                      
                         
                     '>Demat Requests</h2>
-                    <div className="rounded-full w-[60px] h-[60px] mx-auto  mt-10 bg-gradient-to-r p-[30px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] flex justify-center items-center z-10
+                    <div className="rounded-full w-[60px] h-[60px] mx-auto  mt-10 bg-gradient-to-r p-[30px] from-[#0080F6]  via-[#05C876]  to-[#6EE7B7] flex justify-center items-center z-10
                     
                     before:conten-[''] before:h-[2.5rem] before:w-[2px]  before:bg-[green]  before:absolute before:right[42.5rem]
                     before:top-[3.2rem] 

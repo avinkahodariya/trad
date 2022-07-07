@@ -17,13 +17,13 @@ function Website() {
                     <img src={Img1} className={'h-[10rem]'} />
                 </div>
                 <div className='txt-setion flex justify-left items-center' >
-                    <p className='text-[#808d9a] text-[1rem]'>A comprehensive web application to allow clients to access information on their account using Internet connection.</p>
+                    <p className='text-[#808d9a]'>A comprehensive web application to allow clients to access information on their account using Internet connection.</p>
                 </div>
             </div>
 
             <div className='grid grid-cols-1 relative h-[10rem] pr-[8rem] mt-10 '>
                 <div className='txt-setion flex  items-center justify-right' >
-                    <p className='w-full text-end text-[#808D9A] text-[1rem]'>Data on web site may be updated using back office application database with built in facility.</p>
+                    <p className='w-full text-end text-[#808D9A]'>Data on web site may be updated using back office application database with built in facility.</p>
                 </div>
                 <div className='img-section absolute right-0'>
                     <img src={Img2} className={'h-[10rem]'} />

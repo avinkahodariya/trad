@@ -42,7 +42,7 @@ const ClientMaster = ()=>{
                                         <h3 class="title">{singleLeft.num}</h3>
                                     </div>
                                     <div className="desc font-medium">
-                                        <h3 className="text-[1rem]">{singleLeft.title}</h3>
+                                        <h3>{singleLeft.title}</h3>
                                     </div>
                                 </div>
                             </div>
@@ -60,11 +60,11 @@ const ClientMaster = ()=>{
                         <div class="info">
                             
                             <div className="desc font-medium">
-                                <h3 className="text-[1rem]">{singleRight.title}</h3>
+                                <h3>{singleRight.title}</h3>
                             </div>
 
                             <div className="title-section">
-                                <h3 class="title ">{singleRight.num}</h3>
+                                <h3 class="title">{singleRight.num}</h3>
                             </div>
 
                         </div>

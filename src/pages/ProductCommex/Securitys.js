@@ -40,6 +40,7 @@ const Security = () => {
 
             <div className='side-section   grid grid-cols-1 w-full' >
               <div className='relative w-full px-10  mt-[30px]' >
+
                 <div className='flex justify-left items-center pb-3 ' >
                   <Poligon className="relative" counting="01" />
                   <LineImg className=" w-[33rem] relative" />
@@ -49,22 +50,22 @@ const Security = () => {
                 </div>
 
                 <div className='flex justify-left items-center pb-3  ' >
-                  <Poligon className=" ml-[5rem] relative" counting="02" />
-                  <LineImg className=" w-[28rem] relative" />
+                  <Poligon className="relative" counting="02" />
+                  <LineImg className=" w-[33rem] relative" />
                   <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
                     Stores client code as in trade file of exchange for verification against unauthorized modification.
                   </p>
                 </div>
                 <div className='flex justify-left items-center pb-3  ' >
-                  <Poligon className="ml-[9rem] relative" counting="03" />
-                  <LineImg className=" w-[24rem] relative" />
+                  <Poligon className="relative" counting="03" />
+                  <LineImg className=" w-[33rem] relative" />
                   <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
                     Security of client / server and RDBMS Database.
                   </p>
                 </div>
                 <div className='flex justify-left items-center pb-3  ' >
-                  <Poligon className="ml-[5rem] relative" counting="04" />
-                  <LineImg className=" w-[28rem] relative" />
+                  <Poligon className="relative" counting="04" />
+                  <LineImg className=" w-[33rem] relative" />
                   <p className='w-[60%] text-[#808D9A]  text-[18px]   ml-[2rem] '>
                     Automatic locking of settlement on generation of bills.
                   </p>

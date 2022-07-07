@@ -16,7 +16,7 @@ function Statements() {
                             <div className='relative w-full h-[15rem] '>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] top-[36%]">
-                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center pt-6">Printing Holding statements, Transaction statements for clients at predefined intervals on Dot Matrix Printers / Page Printer.</p>
+                                    <p className="leading-relaxed text-[#808D9A] font-medium text-center pt-6">Printing Holding statements, Transaction statements for clients at predefined intervals on Dot Matrix Printers / Page Printer.</p>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@ function Statements() {
                             <div className='relative w-full h-[15rem]'>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] top-[36%]">
-                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center pt-6">Automatic forwarding statements to clients’ e-mail address / Fax at predefined frequency.</p>
+                                    <p className="leading-relaxed text-[#808D9A] font-medium text-center pt-6">Automatic forwarding statements to clients’ e-mail address / Fax at predefined frequency.</p>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ function Statements() {
                             <div className='relative w-full h-[15rem] top-[-70px] '>
                                 <img src={SegIMg} className="absolute" />
                                 <div class="absolute px-[2rem] top-[36%] text-center w-full">
-                                    <p className="leading-relaxed text-[#808D9A] text-[1rem] font-medium text-center pt-6 w-full">Can be printed on pre-printed stationery with on site set-up utility.</p>
+                                    <p className="leading-relaxed text-[#808D9A] font-medium text-center pt-6 w-full">Can be printed on pre-printed stationery with on site set-up utility.</p>
                                 </div>
                             </div>
                         </div>

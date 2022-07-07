@@ -22,7 +22,7 @@ function StationeryManagement() {
 
                                 </div>
                                 <div className="flex-grow">
-                                  <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">This enables to track lot of information from transfer instruction serial No and allow monitoring of stationery stock of various kinds.</p>
+                                  <p className="leading-relaxed text-[#808D9A] pt-4">This enables to track lot of information from transfer instruction serial No and allow monitoring of stationery stock of various kinds.</p>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ function StationeryManagement() {
                                     </svg>
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">Prevent transfer on instruction slips reported missing by clients using stop transfers.</p>
+                                    <p className="leading-relaxed text-[#808D9A] pt-4">Prevent transfer on instruction slips reported missing by clients using stop transfers.</p>
                                 </div>
                             </div>
                         </div>

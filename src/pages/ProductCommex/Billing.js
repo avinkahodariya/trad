@@ -14,7 +14,7 @@ const Billing = ()=>{
                         <li>
                             <div className='flex  justify-start  '>
                                 <div className='content-left flex justify-center items-center w-[46%] px-8 ' >
-                                    <p className='text-right'>
+                                    <p className='text-right text-[1rem]'>
                                         Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
                                     </p>
                                 </div> 
