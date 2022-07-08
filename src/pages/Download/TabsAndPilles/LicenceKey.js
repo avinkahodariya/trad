@@ -6,7 +6,7 @@ const LicenceKey = () => {
         <div className='back-forword-btn mx-10 mt-10 mb-12 p-8'>
             <div className='text-[#3491FF] text-lg	mb-4'>Last Updated On 03-06-2022 at 10:38</div>
             <div className='text-lg	text-[#3D3D3D]	 mb-2'>The License Key in :</div>
-            <div className='text-[#D13129] mb-4 text-lg mt-4 font-medium'>FTOW-GQDB-HIPY-NAOC-SSMG-FXX-JNHBA-KDYPS-RVADXJC-RXOBUWD-UBSHAQJ</div>
+            <div className='text-[#D13129] mb-4 text-lg mt-4 font-medium'>XXXX XXXX XXXX XXXX XXXX</div>
             <div className='text-[#3491FF] mb-4 text-lg mt-3'>The Key is generated based on your details Registered with us.<div>Inform us at earliest if any discrepancy in the information.</div></div>
             <div className='flex '>
               <div className='mr-1 mb-4 text-lg	text-[#3D3D3D] font-medium'>Same key is to be used for all products used by </div>

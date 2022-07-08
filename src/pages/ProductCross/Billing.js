@@ -16,8 +16,8 @@ const Billing = ()=>{
                     <ul className='list-wrraper'>
                         <li>
                             <div className='flex  justify-start  '>
-                                <div className='content-left flex justify-center items-center w-[46%] px-8 ' >
-                                    <p className='text-right'>
+                                <div className='content-left flex justify-center items-center w-[46%] px-12 ' >
+                                    <p className='text-left text-[#808D9A] text-[1rem]'>
                                         Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
                                     </p>
                                 </div> 
@@ -50,10 +50,9 @@ const Billing = ()=>{
                                     </div>
                                 </div>
 
-                                <div className='content-left flex justify-center items-center w-[46%] px-8' >
-                                    <p>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-10' >
+                                    <p className='text-[#808D9A] text-[1rem]'>
+                                    Levying additional charges for special tasks carried out for clients. (e.g. charges for indemnity bond)                                    </p>
                                 </div>
 
                             </div>
@@ -62,10 +61,9 @@ const Billing = ()=>{
 
                         <li>
                             <div className='flex  justify-start  '>
-                                <div className='content-left flex justify-center items-center w-[46%] px-8 ' >
-                                    <p className='text-right'>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-12 ' >
+                                    <p className='text-left text-[#808D9A] text-[1rem]'>
+                                    Printing bills on blank papers / letter heads / pre defined stationery on Dot Matrix Printer / line Printer / Page printer in summarised / detailed mode.                                    </p>
                                 </div> 
                                 <div className='box-right relative text-center  flex justify-center items-center ' >
                                 <div className='w-[6.9rem] h-20 relative  flex justify-start items-center ' >
@@ -92,10 +90,9 @@ const Billing = ()=>{
                                     </div>
                                 </div>
 
-                                <div className='content-left flex justify-center items-center w-[46%] px-8' >
-                                    <p>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-0 pr-[6rem ]' >
+                                    <p className='text-[#808D9A] text-[1rem] text-left'>
+                                    Billing may be done for client himself or on a branch or franchise.                                    </p>
                                 </div>
 
                             </div>
@@ -104,10 +101,9 @@ const Billing = ()=>{
 
                         <li>
                             <div className='flex  justify-start  '>
-                                <div className='content-left flex justify-center items-center w-[46%] px-8 ' >
-                                    <p className='text-right'>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-12 ' >
+                                    <p className='text-[#808D9A] text-[1rem] text-left'>
+                                    File export of bill summery for plugging into your other software for users like banks, exchanges, brokers etc.                                    </p>
                                 </div> 
                                 <div className='box-right relative text-center  flex justify-center items-center ' >
                                 <div className='w-[6.9rem] h-20 relative  flex justify-start items-center ' >
@@ -133,10 +129,9 @@ const Billing = ()=>{
                                     </div>
                                 </div>
 
-                                <div className='content-left flex justify-center items-center w-[46%] px-8' >
-                                    <p>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-10' >
+                                    <p className='text-[#808D9A] text-[1rem]'>
+                                    Specifying minimum bill amount below which amounts will be carried forward to next billing cycle for accumulation.                                    </p>
                                 </div>
 
                             </div>
@@ -145,10 +140,9 @@ const Billing = ()=>{
 
                         <li>
                             <div className='flex  justify-start  '>
-                                <div className='content-left flex justify-center items-center w-[46%] px-8 ' >
-                                    <p className='text-right'>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-12 ' >
+                                    <p className='text-left text-[#808D9A] text-[1rem]'>
+                                    Broker DPs may redirect charges attributable to broking division to other account or offer NIL charges on them.                                    </p>
                                 </div> 
                                 <div className='box-right relative text-center  flex justify-center items-center ' >
                                 <div className='w-[6.9rem] h-20 relative  flex justify-start items-center ' >
@@ -175,10 +169,9 @@ const Billing = ()=>{
                                     </div>
                                 </div>
 
-                                <div className='content-left flex justify-center items-center w-[46%] px-8' >
-                                    <p>
-                                        Including Demat request charges in bills for better accounting. (upfront collection is also possible and simplified)
-                                    </p>
+                                <div className='content-left flex justify-center items-center w-[46%] px-10' >
+                                    <p className='text-left text-[#808D9A] text-[1rem]'>
+                                    Forwarding detailed bill to client via E-mail to who are provided summarised bills in print.                                    </p>
                                 </div>
 
                             </div>

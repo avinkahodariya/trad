@@ -22,7 +22,7 @@ function StationeryManagement() {
 
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed text-[#808D9A] pt-4">Recording of Receipt of various types of stationary from supplier.</p>
+                                    <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">Recording of Receipt of various types of stationary from supplier.</p>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ function StationeryManagement() {
 
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed text-[#808D9A] pt-4">Can also Issue of book(s) to branches and branches can issue to ultimate client and make entry of such issue from browser based application.</p>
+                                    <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">Can also Issue of book(s) to branches and branches can issue to ultimate client and make entry of such issue from browser based application.</p>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function StationeryManagement() {
                                     </svg>
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed text-[#808D9A] pt-4">This enables to track lot of information from transfer instruction serial No and allow monitoring of stationery stock of various kinds.</p>
+                                    <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">This enables to track lot of information from transfer instruction serial No and allow monitoring of stationery stock of various kinds.</p>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ function StationeryManagement() {
 
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed text-[#808D9A] pt-4">Speedy and secure mode of data entry by entering DIS reference number only as BOID is displayed by software.</p>
+                                    <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">Speedy and secure mode of data entry by entering DIS reference number only as BOID is displayed by software.</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function StationeryManagement() {
 
                                 </div>
                                 <div className="flex-grow">
-                                    <p className="leading-relaxed text-[#808D9A] pt-4">Prevent transfer on instruction slips reported missing by clients using stop/revoke transfer facility, loose slip creation, issue and destroy.</p>
+                                    <p className="leading-relaxed  text-[1rem] text-[#808D9A] pt-4">Prevent transfer on instruction slips reported missing by clients using stop/revoke transfer facility, loose slip creation, issue and destroy.</p>
                                 </div>
                             </div>
                         </div>

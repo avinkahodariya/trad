@@ -57,7 +57,7 @@ const Contracts = () => {
                             <div className='bottom flex   rounded-xl w-100 h-30 mx-auto  mt-20 bg-gradient-to-r p-[1.5px] to-[#56a8f4] via-[#05C876] from-[#bbd6eb] ' >
                                 <div className='flex justify-between items-center h-full bg-white text-white rounded-lg p-4 w-full text-center' >
 
-                                    <p className='text-gray-500 font-medium'>Set option to print separate contracts by trade ID, security, etc. for selective clients. Summarized / detailed contract printing setting also available.</p>
+                                    <p className='text-gray-500 text-[1rem] font-medium'>Set option to print separate contracts by trade ID, security, etc. for selective clients. Summarized / detailed contract printing setting also available.</p>
                                 </div>
                             </div>
                         </div>

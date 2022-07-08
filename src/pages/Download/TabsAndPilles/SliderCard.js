@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Card =(props)=>{
   return (
     <div class="text-gray-600 body-font">
-       <h2 className="text-center text-lg font-medium text-[#000000]">
+       <h2 className="text-center text-2xl font-medium text-[#000000]">
         {props.title}
       </h2>
  <div className='single-slider px-5 py-0'>
@@ -26,7 +26,7 @@ const Card =(props)=>{
               className="h-[4rem] w-[4rem] mb-3 place-content-between block absolute top-[3rem] left-1/2  -translate-x-1/2 -translate-y-1/2"
             />
 
-            <h2 className="text-center text-lg mb-2 mt-[4.5rem] font-medium text-[#0A2A4A]">
+            <h2 className="text-center text-xl	 mb-2 mt-[4.5rem] font-medium text-[#0A2A4A]">
               {props.subTitle}
             </h2>
             <button className="flex items-center  uppercase text-size font-medium tracking-wide bg-[#3491FF] text-white p-3 rounded-lg focus:outline-none focus:shadow-outline mt-5	">

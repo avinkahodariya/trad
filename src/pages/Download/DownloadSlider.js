@@ -21,7 +21,7 @@ const navigate =  useNavigate()
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
+          infinite: false,
           dots: true,
         },
       },
@@ -67,7 +67,7 @@ const navigate =  useNavigate()
                 </div>
 
                 <Link to={value.link}>
-                  <div className="flex justify-center p-10 w-full h-[11rem] bg-slate-300 md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-none	     rounded-xl">
+                  <div className="flex justify-center p-10 w-full h-52 bg-slate-300 md:p-10  md:bg-[#FFFFFF] items-center drop-shadow-none	     rounded-xl">
                     <div className="items-center justify-self-center">
                       <div>
                         <Link to={value.link}>
@@ -76,7 +76,7 @@ const navigate =  useNavigate()
                           </h2>
                         </Link>
                       </div>
-                      <p className="text-center text-sm mb-2 font-medium text-[#0A2A4A]">
+                      <p className="text-center text-sm mb-2 font-medium text-[#0A2A4A] h-16">
                         {value.use}
                       </p>
                       {/* <div className=" text-center text-xs mt-4 font-small text-[#808D9A]">

@@ -39,7 +39,7 @@ const CrossnetDownload = (props) => {
     <div className='bg-[#F4FAFF]'>
         <div className='bg-[#fffff]'>
         <div className='font-medium text-3xl mb-4	text-center pt-12 text-[#0A2A4A]'>Cross & Crossnet</div>
-        <div className='mb-6 text-md text-center text-[#808D9A] font-normal'>Offers a lot more facilities and security than CDAS system. Facilities includes, stationery management, signature verification, current holding, etc. </div>
+        <div className='mb-6 text-lg text-center text-[#808D9A] font-normal'>Offers a lot more facilities and security than CDAS system. Facilities includes, stationery management, signature verification, current holding, etc. </div>
         </div>
         <div className='flex justify-between px-12 download-sliders'> 
         <Slider  {...settings} className="slider-card pb-12">  

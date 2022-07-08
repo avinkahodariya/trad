@@ -14,20 +14,20 @@ const Banners = ()=>{
                             ">
                           Back office software for Commodities Derivatives.
                             </p>
-                            <p className="mt-3 text-base text-[#808D9A] font-light sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-[1rem] text-[#808D9A] font-light sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Supports all files of Indian exchanges
                             </p>
-                            <p className="mt-3 text-base text-[#808D9A] font-light sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4 ">
+                            <p className="mt-3 text-[1rem] text-[#808D9A] font-light sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4 ">
                             List of terminal along with sub-broker / client identification.
                             </p>
-                            <p className="mt-3 text-base text-[#808D9A] font-light sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-[1rem] text-[#808D9A] font-light sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Unique trade edit screen that displays Order ID, trade ID, terminal No, time, brokerage, brokerage %, brokerage type, net rate, standard rate for each trade and with shortcuts to recalculate brokerages, search, split etc                            </p>
-                            <p className="mt-3 text-base text-[#808D9A] font-light sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-[1rem] text-[#808D9A] font-light sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Provision to apply absolute brokerage on multiple trades on select & apply basis.
                             </p>
-                            <p className="mt-3 text-base text-[#808D9A] font-light sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-[1rem] text-[#808D9A] font-light sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Automatic effect for Custodial trades.                           </p>
-                            <p className="mt-3 text-base text-[#808D9A] font-light sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-base lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
+                            <p className="mt-3 text-[1rem] text-[#808D9A] font-light sm:mt-5 sm:text-[1rem] sm:max-w-xl sm:mx-auto md:mt-5 md:text-[1rem] lg:mx-0 border-l-2 sm:border-[#3491FF] pl-4">
                             Generate trade files from back office for clients / sub-brokers for use in his office.                           
                             </p>
                         </div>

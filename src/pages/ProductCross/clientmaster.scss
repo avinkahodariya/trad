@@ -116,7 +116,7 @@
     height: 10px;
     background: #0364BE;
     transform: rotate(44.58deg);
-    bottom: 10px;
+    bottom: 18px;
     position: absolute;
     right: 16px;
 }
@@ -229,23 +229,3 @@
     left: 16px;
     bottom: 70px;
   } */
-
-  #cross-branch-section .img-handler-bottom:after{
-    content: "";
-    border-top: 2px dashed #29AEAA;
-    width: 23rem;
-    position: absolute;
-    bottom: 12rem;
-    left: -11.4rem;
-    transform: rotate(32deg);
-  }
-
-  #cross-branch-section .img-handler-bottom:before{
-    content: "";
-    border-top: 2px dashed #29AEAA;
-    width: 23rem;
-    position: absolute;
-    bottom: 11rem;
-    right: -11.8rem;
-    transform: rotate(330deg);
-  }

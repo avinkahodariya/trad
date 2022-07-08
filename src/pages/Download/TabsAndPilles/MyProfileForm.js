@@ -120,7 +120,7 @@ const MyProfileForm = (props) => {
                         <input disabled={profile=="True"?true:false} name="company" className="input-border w-3/4 bg-[#F4FAFF] text-[#9E9E9E] mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline text-sm" type="text" placeholder="Nariman Commodity Services Pvt. Ltd."  onChange={storeData}/>
                     </div>
                     <div className='flex items-right justify-right' >
-                        <p className='underline underline-offset-1 text-[#3491FF] text-base mx-3 ml-auto'  
+                        <p className='underline underline-offset-1 text-[#3491FF] text-base mx-3 ml-auto cursor-pointer'  
                         onClick={()=>{props.setcurrentTab("changepasswordprofile");}}> change password ?</p>
                    
                     </div>
@@ -178,8 +178,8 @@ const MyProfileForm = (props) => {
                 <div className='font-semibold text-xl text-left text-[#3D3D3D] ml-12 mt-8'>GST Release Document</div>
                 <div className='grid grid-cols-5 justify-between mx-10'>
                     <SliderCard subTitle='Trade Plus' img={'/assets/img/svg-5.png'} />
-                    <SliderCard subTitle='ESTRO' img={'/assets/img/svg-1.png'} />
-                    <SliderCard subTitle='CROSS' img={'/assets/img/svg-2.png'} />
+                    <SliderCard subTitle='Estro' img={'/assets/img/svg-1.png'} />
+                    <SliderCard subTitle='Cross' img={'/assets/img/svg-2.png'} />
                     <SliderCard subTitle='Commex' img={'/assets/img/svg-6.png'} />
                     <SliderCard subTitle='Pms' img={'/assets/img/svg-6.png'} />
                 </div>

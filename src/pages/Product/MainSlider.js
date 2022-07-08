@@ -7,7 +7,7 @@ const MainSlider = ()=>{
 
 	var settings = {
 		dots: true,
-		infinite: true,
+		infinite: false,
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1
@@ -29,20 +29,20 @@ const MainSlider = ()=>{
 					
 						<div className="flex flex-col md:w-1/3  circleThing-right circle-effect-right  justify-center h-full bg-white text-white rounded-full p-4">
 							<div className="bg-white p-10 custom-h-w text-gray-400 justify-center text-center items-center flex  border-[2px] rounded-full" >
-								<p className='font-medium'>For each slab a Minimum / Percent / Maximum / Fixed brokerage may be defined.</p>
+								<p className='font-medium text-[1rem]'>For each slab a Minimum / Percent / Maximum / Fixed brokerage may be defined.</p>
 							</div>
 						</div>
 
 					
 						<div className="flex flex-col md:w-1/3  circleThing-center circle-effect-center  justify-center h-full bg-white text-white rounded-full p-4">
 							<div className="bg-white p-10 custom-h-w text-gray-400 justify-center text-center items-center flex  border-[2px] rounded-full " >
-								<p className='font-medium'> Minimum Brokerage per contract may also be defined. </p>
+								<p className='font-mediu text-[1rem]m'> Minimum Brokerage per contract may also be defined. </p>
 							</div>
 						</div>
 
 						<div className="flex flex-col md:w-1/3  circleThing-left circle-effect-right  justify-center h-full bg-white text-white rounded-full p-4">
 							<div className="bg-white p-10 custom-h-w text-gray-400 justify-center text-center items-center flex  border-[2px] rounded-full" >
-								<p className='font-medium'>Speculation, Squaring off and delivery brokerages charged can be defined for same client.</p>
+								<p className='font-mediu text-[1rem]m'>Speculation, Squaring off and delivery brokerages charged can be defined for same client.</p>
 							</div>
 						</div>
 

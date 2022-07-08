@@ -158,7 +158,7 @@ function Accordion() {
                       >
                         <div
                           className="p-5 border border-b-2 rounded-b-xl
-     border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+                        border-gray-200 dark:border-gray-700 dark:bg-gray-900"
                         >
                           <p className="mb-2 text-[#808D9A] dark:text-gray-400 text-left">
                             {value.description}

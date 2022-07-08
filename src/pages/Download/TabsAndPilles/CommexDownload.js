@@ -39,7 +39,7 @@ const CommexDownload = (props) => {
     <div className='bg-white'>
          <div className='bg-[#fffff]'>
         <div className='font-medium text-3xl mb-4	text-center pt-12 text-[#0A2A4A]'>Commex</div>
-        <div className='mb-6 text-md text-center text-[#808D9A] font-normal'> CDSL Record Organiser & Support System software for managing all activities in DP’s office. It offers a lot more facilities and security than CDAS system like stationery management, signature verification, current holding, dues etc. </div>
+        <div className='mb-6 text-lg text-center text-[#808D9A] font-normal'> CDSL Record Organiser & Support System software for managing all activities in DP’s office. It offers a lot more facilities and security than CDAS system like stationery management, signature verification, current holding, dues etc. </div>
         </div>
         <div className='flex justify-between px-12 download-sliders'> 
         <Slider  {...settings} className="slider-card pb-12">  

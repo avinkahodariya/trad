@@ -6,16 +6,10 @@ const Banners = ()=>{
                 <main className="px-10 py-8 md:py-10 md:px- ">
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 my-10 pl-10">
                         <div className="sm:text-center lg:text-left ">
-                            
-                      
-                        <h1 className="text-3xl tracking-tight font-Lexend text-[#0A2A4A] font-semibold md:leading-3 mb-4 sm:mx-auto lg:mx-0
+                            <h1 className="text-3xl tracking-tight font-Lexend text-[#0A2A4A] font-semibold md:leading-3 sm:mx-auto  pb-5 lg:mx-0
                             ">
-                        CROSS    <span className="text-2xl leading-4 tracking-tight font-Lexend text-[#0A2A4A] sm:text-2xl md:text-2xl font-medium  sm:mx-auto mb-5 lg:mx-0">
-                        (CDSL Record Organiser & Support System)
-                        </span>
-                       </h1>
-                     
-         
+                        CROSS
+                            </h1>
                             <p className="text-2xl leading-4 tracking-tight font-Lexend text-[#0A2A4A] sm:text-2xl md:text-2xl font-medium  sm:mx-auto   lg:mx-0
                             ">
                          Back office / CDSL co-ordination, billing and accounting software for DPs with CDSL 

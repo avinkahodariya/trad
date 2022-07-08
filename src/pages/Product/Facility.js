@@ -57,7 +57,7 @@ const Facility = ()=>{
           <div className="bg-[#F4FAFF]">
           <div className='title-box text-center px-5 py-6'>
                   <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A]'>Charges</h2>
-                  <p class="text-sm leading-relaxed font-medium mx-auto text-[#808D9A]">Various charges that may be levied over and above brokerage and may be specifically shown in contract / Bill.</p>
+                  <p class="text-[1rem] leading-relaxed font-medium mx-auto text-[#808D9A]">Various charges that may be levied over and above brokerage and may be specifically shown in contract / Bill.</p>
 
               </div>
               <div className="container flex flex-wrap justify-between items-center mx-auto mb-0 px-5 py-6">
@@ -70,7 +70,7 @@ const Facility = ()=>{
                       >
                           <div className="items-center justify-self-center">
                               <img alt="No Image" src={value.image} className="h-20 w-20 mb-3 place-content-between block absolute top-12 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" />
-                              <h2 className="text-center text-xl title-font font-medium  mt-20 font-medium text-[#0A2A4A]">{value.title}</h2>    
+                              <h2 className="text-center text-xl title-font   mt-20 font-medium text-[#0A2A4A]">{value.title}</h2>    
                           </div>
                       </div>
                       ))}

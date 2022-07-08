@@ -8,7 +8,7 @@ const EsignDownload = (props) => {
         <div className="font-medium text-3xl mb-4	text-center pt-12 text-[#0A2A4A]">
           E-sign
         </div>
-        <div className="mb-6 text-md text-center text-[#808D9A] font-normal">
+        <div className="mb-6 text-lg text-center text-[#808D9A] font-normal">
           {" "}
           CDSL Record Organiser & Support System software for managing all
           activities in DP’s office. It offers a lot more facilities and

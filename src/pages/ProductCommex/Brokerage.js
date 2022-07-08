@@ -10,7 +10,7 @@ function Brokerage() {
       
         <div className="container px-5 py-12 mx-auto ">
             <div className="flex flex-col text-center w-full mt-[2rem] mb-[10rem]">
-                <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Brokerage Facility</h2>
+                <h2 className="title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-0 pb-0 text-[#0A2A4A]">Brokerage Facility</h2>
             </div>
 
             <div className='grid grid-cols-5   '>

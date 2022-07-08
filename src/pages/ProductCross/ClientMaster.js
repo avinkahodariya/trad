@@ -6,10 +6,11 @@ const leftContent = [
     {num: '02', title: 'Additional information like:,,Charges scheme, Billing frequency and detailed / summary mode.,,Frequency of statement of transactions, holding along with mode of delivery like print, email, fax, courier etc.,,Broking Back office client code.'},
     {num: '03', title: 'Grouping clients by family, category, group, branch etc.' },
     {num: '04', title: 'A/c opening letters printing with / without list of attachments.' },
+    {num: '05', title: 'Redefining charges, group, billing and statement frequency by selecting from list of clients.' },
+
 ];
 
 const rightContent = [
-    {num: '05', title: 'Redefining charges, group, billing and statement frequency by selecting from list of clients.' },
     {num: '06', title: 'Special Account closing option to carry out all required checks on receivables and pending demat(s) from back office.' },
     {num: '07', title: 'Warning on dormant accounts usage and provision to freeze accounts.' },
     {num: '08', title: 'Edit / Capture Signature of Client as well as for Power of Attorney.' },
@@ -25,16 +26,15 @@ const ClientMaster = ()=>{
 
 <section id="timeline-section">
   
-        <div className="container flex flex-wrap  mx-auto">
+        <div className="container flex flex-wrap mx-auto ">
             
             <div className='title-box text-center w-full px-20 py-9'>
-                  <h2 className=' text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A] text-center
-                  '>Client Master</h2>
+                  <h2 className=' text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-8 pb-4 text-[#0A2A4A]'>Client Master</h2>
               </div>
 
-            <div className="grid grid-cols-2 w-full px-12 py-5">
+            <div className="grid grid-cols-2 w-full px-12 py-5 ">
 
-                <div class="timeline w:1/2 h-fit">
+            <div class="timeline w:1/2 h-fit">
                 {leftContent.map((singleLeft, index) => {
                         var splitTitle = singleLeft.title.split(',,');
                         return(
@@ -45,7 +45,7 @@ const ClientMaster = ()=>{
                                         <h3 class="title">{singleLeft.num}</h3>
                                     </div>
                                     <div className="desc">
-                                        <h3>{splitTitle[0]}</h3>
+                                        <h3 className="text-[1rem]">{splitTitle[0]}</h3>
                                     {index == 1 &&
                                     <>
                                         <h3>• {splitTitle[1]}</h3>
@@ -60,8 +60,7 @@ const ClientMaster = ()=>{
                 )})}
                     
                 </div>
-
-                <div class="right-timeline w:1/2">
+                <div class="right-timeline w:1/2 h-fit">
                     {rightContent.map((singleRight)=>(
                     <div class="outer">
 
@@ -69,8 +68,8 @@ const ClientMaster = ()=>{
                     <div class="card">
                         <div class="info">
                             
-                            <div className="desc">
-                                <h3>{singleRight.title}</h3>
+                            <div className="desc font-medium">
+                                <h3 className="text-[1rem]">{singleRight.title}</h3>
                             </div>
 
                             <div className="title-section">

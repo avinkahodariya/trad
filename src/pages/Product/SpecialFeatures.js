@@ -33,7 +33,7 @@ function SpecialFeatures() {
                                      <div className='absolute garidents-svgImg'>
                                          {item.icons}
                                      </div>
-                                     <p class="font-normal text-[#808D9A] text-sm  text-left p-6">
+                                     <p class="font-normal text-[#808D9A] text-[1rem]  text-left p-6">
                                         {item.desc}
                                      </p>
                                  </a>

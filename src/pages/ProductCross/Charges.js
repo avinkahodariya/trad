@@ -22,7 +22,7 @@ function Charges() {
 
           </div>
           <div class=" pl-4">
-            <p class="leading-relaxed pt-1 text-md font-medium text-[#808D9A]">Defining various scheme and assigning to clients.</p>
+            <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Defining various scheme and assigning to clients.</p>
           </div>
         </div>
         <div class="flex relative pb-6">
@@ -36,7 +36,7 @@ function Charges() {
 
           </div>
           <div class=" pl-4">
-            <p class="leading-relaxed pt-1 text-md font-medium text-[#808D9A]">Redefining scheme for multiple clients by selection.
+            <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Redefining scheme for multiple clients by selection.
 </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ function Charges() {
 
           </div>
           <div class=" pl-4">
-            <p class="leading-relaxed pt-1 text-md font-medium text-[#808D9A]">Provision of charges on rejected entries, Demat request, late payins, additional copies of statements etc, DIS book issue etc.
+            <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Provision of charges on rejected entries, Demat request, late payins, additional copies of statements etc, DIS book issue etc.
 </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ function Charges() {
 
           </div>
           <div class=" pl-4">
-            <p class="leading-relaxed pt-1 text-md font-medium text-[#808D9A]">Transaction charges may have fixed, minimum, maximum, percent of value, per quantity (for demat) etc.
+            <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Transaction charges may have fixed, minimum, maximum, percent of value, per quantity (for demat) etc.
 </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ function Charges() {
 
           </div>
           <div class=" pl-4">
-            <p class="leading-relaxed pt-1 text-md font-medium text-[#808D9A]">Provision for monthly/ quarterly/ annual account maintenance charges.
+            <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Provision for monthly/ quarterly/ annual account maintenance charges.
 </p>
           </div>
         </div>
@@ -96,7 +96,7 @@ function Charges() {
 
           </div>
           <div class=" pl-4">
-            <p class="leading-relaxed pt-1 text-md font-medium text-[#808D9A]">Displaying transaction carrying out cost, cash collection and printing receipts while entering instructions (based on latest rate file).
+            <p class="leading-relaxed pt-1 text-[1rem] font-medium text-[#808D9A]">Displaying transaction carrying out cost, cash collection and printing receipts while entering instructions (based on latest rate file).
 </p>
           </div>
         </div>

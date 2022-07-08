@@ -23,15 +23,18 @@ const listData = [
   
 ];
 
-
-
-const  OtherSection = ()=>{
+const OtherSection = () => {
   return (
     <>
-        <section id="other-section" className='bg-[#F4FAFF] px-20 py-20 time-2202-line' >
-                <div className='title-box text-center px-5 '>
-                    <h2 className='title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-0 pb-0 text-[#0A2A4A]'>Other associated Modules (Optional, Always quoted separately) </h2>
-                </div>
+      <section
+        id="other-section"
+        className="bg-[#F4FAFF] px-20 py-20 time-2202-line"
+      >
+        <div className="title-box text-center px-5 ">
+          <h2 className="title text-lg lg:text-2xl font-bold sm:text-3xl md:text-3xl pt-0 pb-0 text-[#0A2A4A]">
+            Other associated Modules (Optional, Always quoted separately){" "}
+          </h2>
+        </div>
 
         <div className="wrapper container mx-auto">
           <ul className="sessions">
@@ -44,7 +47,7 @@ const  OtherSection = ()=>{
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default OtherSection
+export default OtherSection;

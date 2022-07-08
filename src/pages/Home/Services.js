@@ -21,8 +21,8 @@ function Services() {
                                     </svg>
                                 </div>
                                 <div className="flex-grow">
-                                    <h1 className="text-[#00C673] text-3lg title-font font-bold mb-3">PMS</h1>
-                                    <h2 className="text-[#0A2A4A] text-3lg title-font font-bold mb-3"> Portfolio Management Service</h2>
+                                    <h1 className="text-[#00C673] text-2xl title-font font-bold mb-3">PMS</h1>
+                                    <h2 className="text-[#0A2A4A] text-[16px] title-font font-bold mb-3"> Portfolio Management Service</h2>
 
                                     <p className="leading-relaxed text-[#808D9A]">Manages portfolios with high degree of automation, internal controls and compliance. </p>
                                     
@@ -37,13 +37,13 @@ function Services() {
                                         <path d="M57.0859 24.0449C57.0859 25.4799 55.9309 26.6699 54.4609 26.6699H36.0859C34.6509 26.6699 33.4609 25.4799 33.4609 24.0449C33.4609 22.6099 34.6509 21.4199 36.0859 21.4199H54.4609C55.9309 21.4199 57.0859 22.6099 57.0859 24.0449Z" fill="#00C673" />
                                         <path d="M27.8959 20.6509L20.0209 28.5259C19.4959 29.0509 18.8309 29.2959 18.1659 29.2959C17.5009 29.2959 16.8009 29.0509 16.3109 28.5259L13.6859 25.9009C12.6359 24.8859 12.6359 23.2059 13.6859 22.1909C14.7009 21.1759 16.3459 21.1759 17.3959 22.1909L18.1659 22.9609L24.1859 16.9409C25.2009 15.9259 26.8459 15.9259 27.8959 16.9409C28.9109 17.9559 28.9109 19.6359 27.8959 20.6509Z" fill="#00C673" />
                                         <path d="M57.0859 48.5449C57.0859 49.9799 55.9309 51.1699 54.4609 51.1699H36.0859C34.6509 51.1699 33.4609 49.9799 33.4609 48.5449C33.4609 47.1099 34.6509 45.9199 36.0859 45.9199H54.4609C55.9309 45.9199 57.0859 47.1099 57.0859 48.5449Z" fill="#00C673" />
-                                        <path d="M27.8959 45.1509L20.0209 53.0259C19.4959 53.5509 18.8309 53.7959 18.1659 53.7959C17.5009 53.7959 16.8009 53.5509 16.3109 53.0259L13.6859 50.4009C12.6359 49.3859 12.6359 47.7059 13.6859 46.6909C14.7009 45.6759 16.3459 45.6759 17.3959 46.6909L18.1659 47.4609L24.1859 41.4409C25.2009 40.4259 26.8459 40.4259 27.8959 41.4409C28.9109 42.4559 28.9109 44.1359 27.8959 45.1509Z" fill="#00C673" />
+                                        <path d="M27.8959 49 53.5509 18.8309 53.7959 18.1659 53.7959C17.5009 53.7959 16.8009 53.5509 16.3109 53.0259L13.6859 50.4009C12.6359 49.3859 12.6359 47.7059 13.6859 46.6909C14.7009 45.6759 16.3459 45.6759 17.3959 46.6909L18.1659 47.4609L24.1859 41.4409C25.2009 40.4259 26.8459 40.4259 27.8959 41.4409C28.9109 42.4559 28.9109 44.1359 27.8959 45.1509Z" fill="#00C673" />
                                     </svg>
 
                                 </div>
                                 <div className="flex-grow">
-                                    <h2 className="text-[#00C673] text-lg title-font font-medium mb-3">CRM</h2>
-                                    <h2 className="text-[#0A2A4A] text-3lg title-font font-bold mb-3">Customer Relation & Task Management</h2>
+                                    <h2 className="text-[#00C673] text-2xl title-font font-bold mb-3">CRM</h2>
+                                    <h2 className="text-[#0A2A4A] text-[16px] title-font font-bold mb-3">Customer Relation & Task Management</h2>
 
                                     <p className="leading-relaxed text-[#808D9A]">Ensures smooth and long-lasting interaction between broking houses and individual brokers with their clients.</p>
                                     
